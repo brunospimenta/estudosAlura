@@ -1,0 +1,27 @@
+<canvas width="600" height="400"></canvas>
+
+<script>
+
+    function desenhaQuadradoVerde(x , y , cor){
+        
+            var posicaoX = 50 * x // mudança pessoal
+            var posicaoY = 50 * y // mudança pessoal
+
+            var tela = document.querySelector("canvas");
+            var pincel = tela.getContext("2d");
+
+            pincel.fillStyle = cor
+            pincel.fillRect(posicaoX, posicaoY , 50, 50); // incrementação pessoal
+            pincel.fillStroke = "black";
+            pincel.strokeRect(posicaoX, posicaoY, 50, 50);  // incrementação pessoal
+
+    }    
+  
+    var j = ["blue", "red" , "green", "yellow", "grey", "pink", "black", "cyan", "purple", "orange"] // incrementação pessoal
+
+   for(var i = 0; i < 10; i++){// mudança pessoal   
+   
+    desenhaQuadradoVerde(i, 0, j[i]);  // incrementação pessoal
+   }
+
+</script>
