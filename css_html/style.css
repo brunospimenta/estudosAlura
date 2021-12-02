@@ -1,4 +1,15 @@
+body {
+    background: #dddddd;
+}
+
 p {
     text-align: center;
 
 }
+
+em strong {
+    color: red; 
+
+
+}
+
