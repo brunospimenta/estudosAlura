@@ -2,7 +2,8 @@
     width: 100%;
 
 .principal {
-       background: #cccccc
+    background: #cccccc;
+    padding: 30px;
 }    
   
 
@@ -32,8 +33,21 @@ em strong {
 
 .beneficios {
     background: #ffffff;
-    text-align: center;
+    text-align: center;  
+    padding: 20px;
+}
     
+ul{
+    display: inline-block;
+    verical-align: top;
+    wifht: 20%;
+    margin-right: 15%;
+}
+    
+
+
+.imagembeneficios{
+ width: 50%;
     
 }
 
