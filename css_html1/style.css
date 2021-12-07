@@ -1,58 +1,91 @@
-#banner{
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: #bbbbbb;
+    padding: 20px 0px;
+}
+
+.caixa{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top:110px;
+    right: 0;   
+}
+
+nav li{
+    display:inline;   
+    margin-left: 15px;  
+}
+
+nav a{
+    text-transform: uppercase;
+    color:black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+
+nav a:hover{
+    color:#c78c19;
+    text-decoration: underline;
+}
+
+.banner{
     width: 100%;
-
-
-
 }
 
-.titulo-centralizado{
-    text-align:center;
-}
 
-.titulo-principal{
-    padding-left: 20px;
 
-}
-p {
+.titulo-princial{
     text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear:left;
 }
 
-#missao {
-    font-size: 20px;
+.principal p{
+    margin: 0 0 1em;
 }
 
-em strong {
-    color: red; 
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style:italic;
+}
+
+.utensilios{
+    width: 120px;
+    float:left;
+    margin: 0 20px 20px 0;
 }
 
 
 
-.itens {
-    font-style: italic;
+.imagembeneficio{
+    width: 60%;
 }
 
-.beneficios {
-    background: #ffffff;
-    text-align: center;  
-    padding: 10px;
-}
-    
-ul{
-    display: inline-block;
-    verical-align: top;
-    wifht: 20%;
-    margin-right: 15%;
-}
-    
 
 
-.imagembeneficios{
- width: 50%;
-    
+footer{
+    text-align: center;
+    background: url("../css_html1/imagens/bg.jpg");
+    padding: 40px 0;
 }
 
-.principal{
-    background: #cccccc;
-    padding:30px;
-}    
-  
+.copyright{
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
