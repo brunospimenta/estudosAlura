@@ -94,10 +94,6 @@ footer {
 	margin: 20px 0 0;
 }
 
-main {
-	
-}
-
 form {
 	margin: 40px 0;
 }
@@ -249,6 +245,6 @@ td, th {
 	margin: 2em auto;
 }
 
-footer {
+.rodape {
     background-image: url(./imagens/bg.jpg);
 }
