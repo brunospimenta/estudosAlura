@@ -9,6 +9,6 @@ const sobrenome = "Pimenta";
 console.log(primeiroNome, sobrenome);
 console.log(`Meu nome é ${primeiroNome} ${sobrenome}`);
 
-primeiroNome = primeiroNome + sobrenome;
+nomeCompleto = primeiroNome + sobrenome;
 
-console.log(primeiroNome)
+console.log(nomeCompleto);
