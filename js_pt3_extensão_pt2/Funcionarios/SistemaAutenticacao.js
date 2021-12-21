@@ -1,5 +1,7 @@
 // Ser Autenticavel significa ter a metodo 'autenticar'
 
+//Duck Type
+
 export class SistemaAutenticacao{
     static login(autenticavel, senha){
         if(SistemaAutenticacao.ehAutenticavel(autenticavel)){
