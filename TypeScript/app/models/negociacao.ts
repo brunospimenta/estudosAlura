@@ -3,7 +3,7 @@ export class Negociacao {
 
     constructor(
         public _data: Date,
-        public readonly quantidade: number,
+        public readonly quantidade: number, /* readonly faz com que a propriedade somente seja lida */
         public readonly valor: number,
          ) {}
 
